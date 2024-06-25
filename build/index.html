@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="bg-[#40513B]">
+    <div class="grid place-items-center h-screen">
+      <div class="absolute h-[680px]">
+        <p class="text-[40px] text-[#FFF5E1] text-center" id="score">Score:0</p>
+        <p class="text-[20px] text-center text-[#DAD3BE]">
+          Add score by pressing N
+        </p>
+      </div>
+      <div
+        class="absolute grid place-items-center"
+        style="visibility: hidden"
+        id="gameover"
+      >
+        <p class="text-[70px] text-red-800">Game Over!</p>
+        <p class="text-[30px]">press R</p>
+      </div>
+      <canvas
+        class="bg-[#EDF1D6] border-8 border-[#609966]"
+        id="myCanvas"
+      ></canvas>
+    </div>
+  </body>
+</html>
