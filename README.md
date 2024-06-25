@@ -1,2 +1,2 @@
 # TypeScipt-Snake
-a classical snake game buold wiht Typescript and html/tailwindCss
+a classical snake game build with Typescript and html/tailwindCss
